@@ -1,5 +1,5 @@
 {
-  "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-05\\Northwind\\Northwind.csproj",
+  "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Northwind.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,32 +15619,37 @@
   "RootNamespace": "Northwind",
   "Documents": [
     {
-      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-05\\Northwind\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-05\\Northwind\\Views\\Home\\Index.cshtml",
+      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-05\\Northwind\\Views\\Product\\Category.cshtml",
-      "TargetPath": "Views\\Product\\Category.cshtml",
+      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-05\\Northwind\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-05\\Northwind\\Views\\_ViewImports.cshtml",
+      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Views\\Product\\Category.cshtml",
+      "TargetPath": "Views\\Product\\Category.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-05\\Northwind\\Views\\_ViewStart.cshtml",
+      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Views\\Product\\Discount.cshtml",
+      "TargetPath": "Views\\Product\\Discount.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\ornelajl\\Drive\\WCTC\\Net Web Development\\Module-07\\Northwind\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }

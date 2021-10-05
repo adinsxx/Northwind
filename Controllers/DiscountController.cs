@@ -11,6 +11,9 @@ namespace Northwind.Controllers{
 
         public DiscountController(NorthwindContext db) => _NorthwindContext = db;
 
-        //  public IActionResult Index(DateTime StartTime, DateTime EndTime) => View(_NorthwindContext.Discounts.Where(s => s.StartTime >= System.DateTime.Now && s.EndTime <= System.DateTime.Now));
+
+         public ActionResult Product() => View(_NorthwindContext.Discounts);
+
+        // public IActionResult Product(DateTime StartTime, DateTime EndTime) => View(_NorthwindContext.Discounts.Where(s => s.StartTime >= System.DateTime.Now && s.EndTime <= System.DateTime.Now).Take(3)); 
     }
 }

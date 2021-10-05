@@ -3,8 +3,9 @@
 
 @foreach (Discount discount in Model)
 {
-    <div class="row justify-content-md-center">
-        <a asp-controller="Product" asp-action="Index" asp-route-id="@discount.DiscountId" class=" col list-group-item "></a>
+    
+    @* <div class="row justify-content-md-center">
+        
         <a class=" col-3 list-group-item list-group-item-secondary">
         @discount.Title
         </a>
@@ -14,5 +15,12 @@
         <a class="col-3 list-group-item list-group-item-secondary">
         @discount.DiscountPercent
         </a>
-    </div>
+    </div> *@
+
+    <div class="list-group">
+  <a asp-controller="Product" asp-action="Discount" asp-route-id="@discount.DiscountId" class="col-md-4 list-group-item list-group-item-info">
+     @discount.Title &#8212
+        @discount.Description
+        </a>
+</div>
   }

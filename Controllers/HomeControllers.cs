@@ -9,9 +9,11 @@ namespace Northwind.Controllers
     public class HomeController : Controller
     
     {
-        private NorthwindContext _northwindContext;
-        public HomeController(NorthwindContext db) => _northwindContext = db;
+        private NorthwindContext _NorthwindContext;
+        public HomeController(NorthwindContext db) => _NorthwindContext = db;
 
-        public ActionResult Index() => View(_northwindContext.Discounts.Where(d => d.StartTime <= DateTime.Now && d.EndTime > DateTime.Now).Take(3));
+        // public ActionResult Index() => View();
+
+        public ActionResult Index() => View(_NorthwindContext.Discounts.Where(d => d.StartTime <= DateTime.Now && d.EndTime > DateTime.Now).Take(3));
     }
 }
